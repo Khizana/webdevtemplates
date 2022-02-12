@@ -48,7 +48,7 @@ form {
 .sign-up-form {
   display: flex;
   flex-direction: column;
-  background: rgb(0, 140, 255);
+  background: linear-gradient(to right, #ff4b2b, #ff416c);
   width: 23em;
   height: 28em;
   text-align: center;
