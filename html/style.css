@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,800");
+
+body {
+  margin: 0;
+  font-size: 1.1rem;
+  font-family: "Montserrat", sans-serif;
+  background: rgb(219, 219, 219);
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 50em;
+  align-items: center;
+}
+
+.sign-in-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 40em;
+  background: transparent;
+}
+
+.sign-in-form {
+  display: flex;
+  flex-direction: column;
+  background: rgb(255, 255, 255);
+  width: 23em;
+  height: 28em;
+  text-align: center;
+  border-radius: 10px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  justify-content: center;
+  box-shadow: -4px 7px 7px #adadad;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: -3em;
+  align-items: center;
+}
+
+.sign-up-form {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to right, #ff4b2b, #ff416c);
+  width: 23em;
+  height: 28em;
+  text-align: center;
+  border-radius: 10px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+input {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  height: 2.3em;
+  border-radius: 2px;
+  border: none;
+  background: #eeeeee;
+}
+
+button {
+  border-radius: 20px;
+  border: 1px solid #ff4b2b;
+  background-color: #ff4b2b;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  width: 40%;
+  margin-top: 1.2em;
+  transition: 0.5s;
+}
+
+.description {
+  width: 15em;
+}
+
+.sign-up {
+  background: transparent;
+  border-color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+button:hover,
+button:focus {
+  width: 43%;
+}
