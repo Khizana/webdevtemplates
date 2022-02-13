@@ -100,7 +100,21 @@ a {
   color: white;
 }
 
-button:hover,
-button:focus {
+.sign-up:hover,
+.sign-up:focus {
   width: 43%;
+  background-color: #ff4b2b;
+  border-color: #ff4b2b;
+}
+
+.sign-in {
+  width: 20em;
+  border: none;
+}
+
+.sign-in:hover,
+.sign-in:focus {
+  width: 22em;
+  background: rgb(255, 183, 195);
+  color: white;
 }

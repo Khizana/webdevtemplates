@@ -22,6 +22,7 @@ body {
   width: 80%;
   height: 40em;
   background: transparent;
+  flex-direction: row-reverse;
 }
 
 .sign-in-form {
@@ -58,6 +59,7 @@ form {
   align-items: center;
   justify-content: center;
   align-items: center;
+  color: white;
 }
 
 input {
@@ -67,7 +69,7 @@ input {
   height: 2.3em;
   border-radius: 2px;
   border: none;
-  background: #c0c0c0;
+  background: #eeeeee;
 }
 
 button {
@@ -82,8 +84,38 @@ button {
   text-transform: uppercase;
   width: 40%;
   margin-top: 1.2em;
+  transition: 0.5s;
 }
 
 .description {
   width: 15em;
+}
+
+.sign-up {
+  background: transparent;
+  border-color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.sign-up:hover,
+.sign-up:focus {
+  width: 43%;
+  background-color: #ff4b2b;
+  border-color: #ff4b2b;
+}
+
+.sign-in {
+  width: 20em;
+  border: none;
+}
+
+.sign-in:hover,
+.sign-in:focus {
+  width: 22em;
+  background: rgb(255, 183, 195);
+  color: white;
 }
