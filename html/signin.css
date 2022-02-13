@@ -119,3 +119,43 @@ a {
   background: rgb(255, 183, 195);
   color: white;
 }
+
+.description {
+  max-width: 1000px;
+}
+
+@media (max-width: 1000px) {
+  .description {
+    width: 13em;
+  }
+}
+
+@media (max-width: 876px) {
+  .sign-up {
+    width: 12em;
+  }
+
+  .sign-in {
+    width: 10em;
+  }
+
+  .sign-in-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .sign-in-form {
+    border-radius: 10px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    height: 34em;
+  }
+
+  .sign-up-form {
+    border-radius: 10px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    box-shadow: -5px 7px 7px #adadad;
+    height: 34em;
+  }
+}
