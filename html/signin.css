@@ -131,12 +131,8 @@ a {
 }
 
 @media (max-width: 876px) {
-  .sign-up {
-    width: 12em;
-  }
-
   .sign-in {
-    width: 10em;
+    width: 12em;
   }
 
   .sign-in-container {
