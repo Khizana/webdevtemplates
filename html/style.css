@@ -58,7 +58,6 @@ form {
   border-bottom-left-radius: 0px;
   align-items: center;
   justify-content: center;
-  align-items: center;
   color: white;
 }
 
@@ -68,11 +67,25 @@ input {
   width: 60%;
   height: 2.3em;
   border-radius: 2px;
-  border: none;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom-color: #ff4b2b;
+
   background: #eeeeee;
   font-family: "Inter";
   font-weight: bold;
   letter-spacing: 2px;
+  transition: 1s;
+  color: rgb(247, 0, 255);
+  outline: none;
+}
+
+input:hover,
+input:focus {
+  width: 67%;
+  border-radius: 4px;
+  border-color: #ff416c;
 }
 
 button {

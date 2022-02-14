@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,800");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
 body {
   margin: 0;
@@ -68,8 +69,24 @@ input {
   width: 60%;
   height: 2.3em;
   border-radius: 2px;
-  border: none;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom-color: #ff4b2b;
   background: #eeeeee;
+  font-family: "Inter";
+  font-weight: bold;
+  letter-spacing: 2px;
+  transition: 1s;
+  color: rgb(247, 0, 255);
+  outline: none;
+}
+
+input:hover,
+input:focus {
+  width: 67%;
+  border-radius: 4px;
+  border-color: #ff416c;
 }
 
 button {
